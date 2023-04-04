@@ -6,7 +6,7 @@ import vo.Member.RegisterMemberResDto;
 
 public interface MemberLoginService {
 
-    public RegisterMemberResDto registerMember(RegisterMemberReqDto registerMemberReqDto);
+    public RegisterMemberResDto registerMember( RegisterMemberReqDto registerMemberReqDto);
 
 
 }
