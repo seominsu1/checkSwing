@@ -8,7 +8,7 @@ import vo.Member.RegisterMemberReqDto;
 import vo.Member.RegisterMemberResDto;
 
 @RestController
-@RequestMapping(path="/members")
+@RequestMapping(path="/member")
 public class MemberFormController {
 
     private final MemberLoginService memberService;
@@ -20,7 +20,7 @@ public class MemberFormController {
     }
 
 
-    @GetMapping("")
+    @PostMapping("/login")
     public RegisterMemberResDto registerMember(@RequestBody RegisterMemberReqDto registerMemberReqDto){
         return memberService.registerMember(registerMemberReqDto);
     }
