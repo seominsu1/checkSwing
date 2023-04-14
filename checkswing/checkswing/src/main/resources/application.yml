@@ -18,7 +18,8 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
+  main:
+    web-application-type: none
 
 jwt:
   secret: fjewiofjewif3f32if32i3i33@@!!!313212!!212!!@2222fgr3g12fewfewf3223r23@333232!!
